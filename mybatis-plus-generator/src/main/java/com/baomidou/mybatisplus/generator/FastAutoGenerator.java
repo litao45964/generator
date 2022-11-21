@@ -69,6 +69,7 @@ public final class FastAutoGenerator {
     private AbstractTemplateEngine templateEngine;
 
     private FastAutoGenerator(DataSourceConfig.Builder dataSourceConfigBuilder) {
+        //初始化各个builder
         this.dataSourceConfigBuilder = dataSourceConfigBuilder;
         this.globalConfigBuilder = new GlobalConfig.Builder();
         this.packageConfigBuilder = new PackageConfig.Builder();
